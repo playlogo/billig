@@ -15,17 +15,17 @@
 
 | Date | Total time | Description | Happy with progress ? |
 |------|------------|-------------|-----------------------|
-| [08.3](#march-8---2h)|     3h     | Brainstorming & Gathering & Online research | Yes, finally locked in on one idea. Was really torn between the print farm, module based printer and Billig|
-| [09.3](#march-9---1h) | 2.5h | Documentation & Organization | Yes, really happy i did all the annoying markdown formatting and stuff |
+| [08.3](#march-8---3h)|     3h     | Brainstorming & Gathering & Online research | Yes, finally locked in on one idea. Was really torn between the print farm, module based printer and Billig|
+| [09.3](#march-9---25h) | 2.5h | Documentation & Organization | Yes, really happy: Did all the annoying markdown formatting and stuff |
 
-<br>
+---
 
 **Timeline:**
 
 | Date | Estimated hours | Description | Possible motivational problems |  
 |------|-----------------|-------------|--------------------------------|
 | 09.03 - 16.03 | 10h - 20h | Research & Parts selection - Found vendors, lock-in parts for everything, created BOM with estimate expenses, find / create CAD models for individual parts, create dimensionally accurate design specification | Unlikely - I love organizing, planning, and shopping for stuff |
-| 17.03 - 23.03 | 15h - 20h | CAD design - covert design specification into CAD (and find a dark theme for onshape)| Maybe - Starring at a CAD design for multiple hours, multiple days strait can be ... exhausting |
+| 17.03 - 23.03 | 15h - 20h | CAD design - covert design specification into CAD (and find a dark theme for onshape)| Maybe - Staring at a CAD design for multiple hours, multiple days strait can be ... exhausting |
 | 24.03 - 27.03 | - 10h | Implement "Should-have" features | Unlikely - Improving a finished Design should be really motivating, cause you see what you've achieved |
 | 28.03 - 31.03 |  | Buffer | |
 
