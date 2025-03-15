@@ -9,6 +9,8 @@
 **Bom**: [Google sheets](https://docs.google.com/spreadsheets/d/1451xPwitG2cd0BywjLuyT1Flae_F1tCVU7JKSqZtRoc/edit?usp=sharing)
 **CAD**: [Onshape](https://cad.onshape.com/documents/d0a1f0aa5ccbfda89a60ed00/w/724bd13dc87be16ac72aafeb/e/ab5d18244eafa3c49944618e?renderMode=0&uiState=67cdf3b468bb893dcada95f7)
 
+**Status Update**: Due to final school exams, hackboard and terminal-craft the timeline has been delayed by one and a half weeks. This means i will be aiming for OpenSauce and not RMRRF.
+
 ---
 
 **Journal Overview:**
