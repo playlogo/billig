@@ -52,3 +52,6 @@ Z:
 ## Inspiration
 
 - Y-Gantry Belt mount <https://us.openbuilds.com/nema-17-belt-and-pinion-bundle/>
+
+745-
+Z-Belt width 778.19626
