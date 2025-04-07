@@ -1,57 +1,39 @@
-Aluminum extrutions: <https://us.misumi-ec.com/vona2/detail/110302683830/?Inch=0>
+# Design notes
 
-Aluprofile exporess (durchhänge rechner) I Nut 5:
+Notes about aspects of the final printer design.
 
-- 2040 12.4: <https://www.aluprofile-express.de/Aluminiumprofil-schwarz-20x40L-I-Typ-Nut-5-088kg-m-Zuschnitt-50-6000mm>
-- 2020 7.40: <https://www.aluprofile-express.de/Aluminiumprofil-schwarz-20x20L-I-Typ-Nut-5-049kg-m-Zuschnitt-50-6000mm>
+Contents:
 
-6,90
+- [Filament holder](#filament-holder)
+- [Bed mount](#bed-mount)
+- [Z-Lead screw bottom assembly](#z-lead-screw-bottom-assembly)
+- [BOM: Screws etc](#bom-screws-etc)
 
-myaluprofil I nut 5:
+## Filament holder
 
-- 2020 8.8: <https://www.myaluprofil.de/aluminum-profile-20x20-groove-5-i-type-.html?language=en>
+I'll reuse the original "Filament clip-on holder". I've added a PTFE tube mount to the top of the printer to guide the filament over the top edge and into the printing area:
 
-- 2040 12.8: <https://www.myaluprofil.de/aluminum-profile-20x40-groove-5-i-type-.html?language=en>
+*I'll add a PTFE tube to the purple section*
 
-- 4040 20.6: <https://www.myaluprofil.de/Aluminum-profile-40x40-groove-5-I-type.html?language=en>
+![Filament path](images/filament_path.png)
 
-## Electronics
+## Bed mount
 
-- 2 BTT SKU Mini
-  - One heated bed each
-  - One 24V PSU each
+The two heatbeds will be mounted to the vertical aluminum extrusions using the silicon bed spacers, and the vertical extrusions will be mounted to the frame using these 90deg brackets (inspired by the voron 2.4 bed mount, since it can hold the sold aluminum bed, it should be strong enough to hold the cheap pcb heatbed)
 
-## Kobra 2 Neo
+![Bed mount](images/bed_mount.png)
 
-- Link: <https://www.3djake.de/anycubic-1/kobra-2-neo-defekt>
-- teardown <https://1coderookie.github.io/Kobra2NeoInsights/hardware/hw_index/>
+## Z-Lead screw bottom Assembly
 
-Items:
+Stackup of the bottom assembly:
 
-- 2x 24V 17A PSU
-- 2x 230x230mm Heated bed w/ magnetic sticker & PEI plate
-- 2x Vulcano clone Hotend
-- 4x Nema17 42-34
-- 2x Nema17 Pancake
-
-# Airflow simulation
-
-<https://www.simscale.com/workbench/?pid=941502413036244587&mi=run%3A19%2Csimulation%3A18&mt=SIMULATION_RUN>
-
-Tutorial: <https://www.simscale.com/docs/tutorials/drone-simulation-rotating-zones/>
-
-## Assembly
-
-Z:
-
+- Printed top-cover part
 - 608 barring
 - Printed Spacer
 - GT 40T pulley
 - 608 barring
+- Printed bottom part
 
-## Inspiration
+## BOM: Screws, etc
 
-- Y-Gantry Belt mount <https://us.openbuilds.com/nema-17-belt-and-pinion-bundle/>
-
-745-
-Z-Belt width 778.19626
+I have various screws and other stuff left from the two Kobra printers and the Ender3NG I just build. The BOM only contains the fasteners I'm personally missing to build the printer, not all the required ones!

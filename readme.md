@@ -2,6 +2,19 @@
 
 ![Final version](images/v2_1.png)
 
-*Designing a 3D printer from scratch in 5 days*
+> *Designing a 3D printer from scratch in 5 days*
 
-Take a look at the [Journal](JOURNAL.md)!
+**Bom**: [Google sheets](https://docs.google.com/spreadsheets/d/1451xPwitG2cd0BywjLuyT1Flae_F1tCVU7JKSqZtRoc/edit?usp=sharing)  
+**CAD**: [Onshape](https://cad.onshape.com/documents/d0a1f0aa5ccbfda89a60ed00/w/724bd13dc87be16ac72aafeb/e/ab5d18244eafa3c49944618e?renderMode=0&uiState=67cdf3b468bb893dcada95f7)
+
+About the printer:
+
+- 440x230x260mm printing volume
+- 940x410x465mm outside
+- Reuses **a lot** of parts from two "broken" [Anycubic Kobra 2 Neos](https://de.anycubic.com/products/kobra-2-neo)
+- Direct drive extruder & dual 5020 part cooling
+- Completely enclosed electronics
+- Build-in ABL and Nozzle offset sensor
+- ~$330 (including the two broken printers)
+  
+Take a look at the [Journal](JOURNAL.md) or the [Design notes](notes.md)!
