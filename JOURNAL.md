@@ -9,9 +9,7 @@
 **Bom**: [Google sheets](https://docs.google.com/spreadsheets/d/1451xPwitG2cd0BywjLuyT1Flae_F1tCVU7JKSqZtRoc/edit?usp=sharing)
 **CAD**: [Onshape](https://cad.onshape.com/documents/d0a1f0aa5ccbfda89a60ed00/w/724bd13dc87be16ac72aafeb/e/ab5d18244eafa3c49944618e?renderMode=0&uiState=67cdf3b468bb893dcada95f7)
 
-<br>
-<br>
-<br>
+**Status Update**: Due to final school exams, hackboard and terminal-craft the timeline has been delayed by one and a half weeks. This means i will be aiming for OpenSauce and not RMRRF.
 
 ---
 
@@ -48,10 +46,9 @@ Real-life multiplier: x1.5 -> 68h -> ~3h per day -> Realistic
 |-----------|-------------|-------------------------|
 | (400mm)² for X&Y, Z should have 200mm+ | Filament runout sensor | 2 Build-in filament holders (Prusa Core style: inset into case, on the left&right) |
 | CoreXY with Belts | LED-Bar under Bed for status, etc| Build-in filament weight sensor (using [one of these](https://de.aliexpress.com/item/33046037411.html))|
-| Enclosed (for ABS) | Exhaust air filtration using [activated carbon](https://meltbro.de/nevermore-activated-carbon-aktivkohle-fuer-voron-2-4-0-1-0-2-trident-3d-drucker.html) | External [Multi-filament switcher (Pico-MMU, 2 filaments)](https://www.printables.com/model/1083174-mmu-multi-material-upgrade) & Spool holder |
+| Enclosed (for ABS) | Exhaust air filtration using [activated carbon](https://meltbro.de/nevermore-activated-carbon-aktivkohle-fuer-voron-2-4-0-1-0-2-trident-3d-drucker.html) | External [Multi-filament switcher (Pico-MMU, 2 filaments)](https://www.printables.com/model/1083174-mmu-multi-material-upgrade)|
 | Direct drive | | |
 | ABL using cheap [BLTouch clone](https://de.aliexpress.com/item/1005007554425544.html)| | |
-| Fully enclosed | | |
 | Temperature Sensor inside & Temp-control fans | | |
 
 ---
