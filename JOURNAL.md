@@ -1,7 +1,7 @@
-**Goal:**
-*<300$ (400mm)²x250mm CoreXY enclosed 3D printer*
+**Result:**
+*<300$ 440x230x230mm 3D printer*
 
-**Author:** [@playlogo](https://github.com/playlogo)
+**Author:** [@playlogo](https://github.com/playlogo)  
 **Repository:** [https://github.com/playlogo/billig](https://github.com/playlogo/billig)
 **Total hours so far:** 5.5
 **3D Printer available:** Yes
@@ -9,7 +9,15 @@
 **Bom**: [Google sheets](https://docs.google.com/spreadsheets/d/1451xPwitG2cd0BywjLuyT1Flae_F1tCVU7JKSqZtRoc/edit?usp=sharing)
 **CAD**: [Onshape](https://cad.onshape.com/documents/d0a1f0aa5ccbfda89a60ed00/w/724bd13dc87be16ac72aafeb/e/ab5d18244eafa3c49944618e?renderMode=0&uiState=67cdf3b468bb893dcada95f7)
 
+<br>
+<br>
+<br>
+
 ---
+
+<br>
+<br>
+<br>
 
 **Journal Overview:**
 
