@@ -19,7 +19,7 @@ About the printer:
 - Build-in ABL and Nozzle offset sensor
 - ~$330 (including the two broken printers)
   
-> Take a look at the [Design-Notes](notes.md) to better understand my design decisions.
+> Take a look at the [Design-Notes](notes.md) to better understand some *hidden* design decisions.
 
 About the journal [Written on April 7]: So this journal didn't really work out that well. I started planning the printer and a timeline ~4 weeks ago on March 9., but then got sidetracked by other things (hackboard, pre-final school exams, irl stuff). During this time I constantly thought about it though, and decided to try to convert 2 broken [Anycubic Kobra 2 Neos](https://de.anycubic.com/products/kobra-2-neo) into *this* one big printer.
 
