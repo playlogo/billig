@@ -1,7 +1,5 @@
 # Design notes
 
-Notes about aspects of the final printer design.
-
 Contents:
 
 - [Filament holder](#filament-holder)
@@ -11,12 +9,15 @@ Contents:
 - [Motion - Endstops](#motion---endstops)
 - [Frame - Z-Lead screw bottom assembly](#frame---z-leadscrew-bottom-mount)
 - [BOM - Screws etc](#bom---screws-etc)
+- [BOM - Reuse of parts from Kobras](#bom---reuse-of-parts-from-kobras)
+- [Electronics - Mains wiring](#electronics---mains-wiring)
+- [Electronics - 2 MBs](#electronics---2-mbs)
 
 ## Filament holder
 
 I'll reuse the original "Filament clip-on holder". I've added a PTFE tube mount to the top of the printer to guide the filament over the top edge and into the printing area:
 
-*I'll add a PTFE tube to the purple section*
+*I'll add a leftover PTFE tube to the purple section*
 
 ![Filament path](images/filament_path.png)
 
@@ -58,3 +59,34 @@ Stackup of the bottom assembly:
 ## BOM - Screws, etc
 
 I have various screws and other stuff left from the two Kobra printers and the Ender3NG I just build. The BOM only contains the fasteners I'm personally missing to build the printer, not all the required ones!
+
+## BOM - Reuse of parts from Kobras
+
+This printer reuses various parts from the two Anycubic Kobras. Most notably:
+
+- Heatbeds & Buildplate
+- PSUs, MBs, Motors, some Belts, Leadscrew
+- Direct drive extruder, Hotend, ABL probe, Wires
+- Some aluminum extrusions (all the darker ones in the CAD model are reused)
+
+I **do not** reuse:
+
+- Metal structural parts (plates, etc)
+- Plastic structural parts
+
+## Electronics - Mains wiring
+
+I'll reuse the mains cable socket with buildin fuse from one of the kobras. I'll then use [this thing:5018395](https://www.thingiverse.com/thing:5018395) to mount 3 Wago 221 connectors to split the incomming mains for the two PSUs.
+
+![Mains plug & Wago holder](images/electrical_mains.png)
+
+Each PSU will power one MB, and the right PSU will also be connected to this [step down converter](https://de.aliexpress.com/item/1005007820952595.html?spm=a2g0o.order_list.order_list_main.80.36075c5feb4ZS8&gatewayAdapt=glo2deu) to produce 5V for the rpi zero.
+
+## Electronics - 2 Controller boards / MBs
+
+Since this print uses two MBs with 4 stepper drivers each I need to split the 6 steppers between them.
+
+One board will only handle both Z-Steppers and one heatbed.  
+The other board will handle both Y-Steppers, the one X-Stepper, the extruder, the hotend and one heatbed.
+
+This shouldn't cause any problems, since the Z-Axis is the slowest and least used Axis and any possible delay between the two MBs shouldn't matter.

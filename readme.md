@@ -10,11 +10,12 @@
 About the printer:
 
 - 440x230x260mm printing volume
-- 940x410x465mm outside
-- Reuses **a lot** of parts from two "broken" [Anycubic Kobra 2 Neos](https://de.anycubic.com/products/kobra-2-neo)
+- 940x410x465mm frame
+- Reuses a lot of parts from two "broken" [Anycubic Kobra 2 Neos](https://de.anycubic.com/products/kobra-2-neo)
 - Direct drive extruder & dual 5020 part cooling
 - Completely enclosed electronics
-- Build-in ABL and Nozzle offset sensor
+- Build-in ABL & Nozzle offset sensor
+- With a rpi zero & Klipper-Ready
 - ~$330 (including the two broken printers)
-  
+
 Take a look at the [Journal](JOURNAL.md) or the [Design notes](notes.md)!
