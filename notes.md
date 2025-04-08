@@ -86,9 +86,9 @@ Each PSU will power one MB, and the right PSU will also be connected to this [st
 
 ## Electronics - 2 Controller boards / MBs
 
-Since this print uses two MBs with 4 stepper drivers each I need to split the 6 steppers between them.
+Since this printer uses two Control boards (MBs) with only 4 stepper drivers each I need to split the 6 steppers between them.
 
-One board will only handle both Z-Steppers and one heatbed.  
-The other board will handle both Y-Steppers, the one X-Stepper, the extruder, the hotend and one heatbed.
+The first board will only control the two Z-Steppers and one heatbed.  
+The second board will control the two Y-Steppers, the one X-Stepper, the extruder, the hotend and one heatbed.
 
-This shouldn't cause any problems, since the Z-Axis is the slowest and least used Axis and any possible delay between the two MBs shouldn't matter.
+This shouldn't cause any problems, since the Z-Axis is the slowest and least used axis, and any possible delay between the two MBs shouldn't really matter.
