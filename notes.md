@@ -74,6 +74,8 @@ I **do not** reuse:
 - Metal structural parts (plates, etc)
 - Plastic structural parts
 
+All orange parts in the CAD modal are self designed and will be 3D printed!
+
 ## Electronics - Mains wiring
 
 I'll reuse the mains cable socket with buildin fuse from one of the kobras. I'll then use [this thing:5018395](https://www.thingiverse.com/thing:5018395) to mount 3 Wago 221 connectors to split the incomming mains for the two PSUs.
