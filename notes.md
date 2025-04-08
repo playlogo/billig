@@ -58,7 +58,7 @@ Stackup of the bottom assembly:
 
 ## BOM - Screws, etc
 
-I have various screws and other stuff left from the two Kobra printers and the Ender3NG I just build. The BOM only contains the fasteners I'm personally missing to build the printer, not all the required ones!
+I have various screws and other stuff left over from the two Kobra printers and the Ender3NG I just build. The BOM only contains the fasteners I'm personally missing to build the printer, not all the required ones to build it from scratch!
 
 ## BOM - Reuse of parts from Kobras
 

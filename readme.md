@@ -1,4 +1,4 @@
-# Billig - A 3D printer from Scratch
+# Billig - Designing 3D printer from scratch
 
 ![Final version](images/v2_1.png)
 
