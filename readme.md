@@ -16,6 +16,6 @@ About the printer:
 - Completely enclosed electronics
 - Build-in ABL & Nozzle offset sensor
 - With a rpi zero & Klipper-Ready
-- ~$330 (including the two broken printers)
+- ~$340 (including the two broken printers)
 
 Take a look at the [Journal](JOURNAL.md) or the [Design notes](notes.md)!

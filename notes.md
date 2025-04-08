@@ -92,3 +92,11 @@ The first board will only control the two Z-Steppers and one heatbed.
 The second board will control the two Y-Steppers, the one X-Stepper, the extruder, the hotend and one heatbed.
 
 This shouldn't cause any problems, since the Z-Axis is the slowest and least used axis, and any possible delay between the two MBs shouldn't really matter.
+
+I'll cut holes and slots into the acrylic backplate to make place for the stepper motor, etc. cables.
+
+## Electroics - Toolhead breakout board
+
+I'll reuse the original toolhead breakout board and mount it to the new toolhead. The breakout board connects the ABL probe, heater,  thermistor, fans and extruder stepper using a 18-Pin IDC cable to MBs.
+
+![Breakout board](images/electrical_breakout.png)
