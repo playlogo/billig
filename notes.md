@@ -6,8 +6,11 @@ Contents:
 
 - [Filament holder](#filament-holder)
 - [Bed mount](#bed-mount)
-- [Z-Lead screw bottom assembly](#z-lead-screw-bottom-assembly)
-- [BOM: Screws etc](#bom-screws-etc)
+- [Frame - Bottom corner pieces](#frame---bottom-corner-pieces)
+- [Frame - TPU feet](#frame---tpu-feet)
+- [Motion - Endstops](#motion---endstops)
+- [Frame - Z-Lead screw bottom assembly](#frame---z-leadscrew-bottom-mount)
+- [BOM - Screws etc](#bom---screws-etc)
 
 ## Filament holder
 
@@ -23,7 +26,25 @@ The two heatbeds will be mounted to the vertical aluminum extrusions using the s
 
 ![Bed mount](images/bed_mount.png)
 
-## Z-Lead screw bottom Assembly
+## Frame - Bottom corner pieces
+
+The aluminum extrusions will be mounted to the corner pieces using [blind joints](https://docs.vzbot.org/assets/images/manual/blind-joints/blind-joints.png). Additionally the vertical extrusions are being reused from the Kobra printers, and "slide" into the corner pieces (see picture).
+
+![2040 Profile](images/2040_profile.png)
+
+## Frame - TPU feet
+
+The feet will be printed with TPU to be flexible and absorb *some* of the vibrations. They'll be screwed into the bottom corner pieces using M5 Screws
+
+![Feet](images/frame_feet.png)
+
+## Motion - Endstops
+
+I'll use microswitches as X and dual Y endstops. The Z-Axis will use the ABL sensor. Since I didn't find any accurate measurements of the microswitches, I made the "activator/clicker" (marked in green) a separate part to be easelly modified.
+
+![Endstops](images/motion_endstops.png)
+
+## Frame - Z-Leadscrew bottom mount
 
 Stackup of the bottom assembly:
 
@@ -34,6 +55,6 @@ Stackup of the bottom assembly:
 - 608 barring
 - Printed bottom part
 
-## BOM: Screws, etc
+## BOM - Screws, etc
 
 I have various screws and other stuff left from the two Kobra printers and the Ender3NG I just build. The BOM only contains the fasteners I'm personally missing to build the printer, not all the required ones!
