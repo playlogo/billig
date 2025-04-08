@@ -11,7 +11,8 @@ Contents:
 - [BOM - Screws etc](#bom---screws-etc)
 - [BOM - Reuse of parts from Kobras](#bom---reuse-of-parts-from-kobras)
 - [Electronics - Mains wiring](#electronics---mains-wiring)
-- [Electronics - 2 MBs](#electronics---2-mbs)
+- [Electronics - 2 MBs](#electronics---2-controller-boards--mbs)
+- [Electronics - Toolhead breakout board](#electronics---toolhead-breakout-board)
 
 ## Filament holder
 
@@ -95,7 +96,7 @@ This shouldn't cause any problems, since the Z-Axis is the slowest and least use
 
 I'll cut holes and slots into the acrylic backplate to make place for the stepper motor, etc. cables.
 
-## Electroics - Toolhead breakout board
+## Electronics - Toolhead breakout board
 
 I'll reuse the original toolhead breakout board and mount it to the new toolhead. The breakout board connects the ABL probe, heater,  thermistor, fans and extruder stepper using a 18-Pin IDC cable to MBs.
 
