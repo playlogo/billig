@@ -98,6 +98,6 @@ I'll cut holes and slots into the acrylic backplate to make place for the steppe
 
 ## Electronics - Toolhead breakout board
 
-I'll reuse the original toolhead breakout board and mount it to the new toolhead. The breakout board connects the ABL probe, heater,  thermistor, fans and extruder stepper using a 18-Pin IDC cable to MBs.
+I'll reuse the original toolhead breakout board and mount it to the new toolhead. The breakout board connects the ABL probe, heater,  thermistor, fans and extruder stepper using a 18-Pin IDC cable to the MBs.
 
 ![Breakout board](images/electrical_breakout.png)

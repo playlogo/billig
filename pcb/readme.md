@@ -2,7 +2,7 @@
 
 | <img src="../images/pcb_raytraced.png" height="400" width="500" style="object-fit: cover;" alt="PCB routing"/> |<img src="../images/pcb_raytraced_top.png" height="400" width="500" style="object-fit: cover;" alt="PCB components"/> |
 | ---------------------------------------|------------------------------------|
-| <img src="../images/pcb_routing.png" height="420" width="500" style="object-fit: cover;" alt="Case render"/> | <img src="../images/pcb_components.png" height="400" width="500" style="object-fit: cover;" alt="Case side view"/> |
+| <img src="../images/pcb_routing.png" height="420" width="500" style="object-fit: cover;" alt="Case render"/> | <img src="../images/pcb_rp2040.png" height="340" width="500" style="object-fit: cover;" alt="Case side view"/> |
 
 Features:
 
