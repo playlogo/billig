@@ -1,7 +1,8 @@
 # Kontakt - Fan & LED control board
 
-![Render](../images/pcb_raytraced.png)
-![Routing](../images/pcb_routing.png)
+| <img src="../images/pcb_raytraced.png" height="400" width="500" style="object-fit: cover;" alt="PCB routing"/> |<img src="../images/pcb_raytraced_top.png" height="400" width="500" style="object-fit: cover;" alt="PCB components"/> |
+| ---------------------------------------|------------------------------------|
+| <img src="../images/pcb_routing.png" height="420" width="500" style="object-fit: cover;" alt="Case render"/> | <img src="../images/pcb_components.png" height="400" width="500" style="object-fit: cover;" alt="Case side view"/> |
 
 Features:
 
@@ -14,13 +15,18 @@ Features:
 - 2x High current 24V PWM outputs (5A)
 - 4x Low current 24V PWM outputs (2A)
 
-Why ?: I originally only wanted to slap a rpi pico onto a board and add 6 mosfets to it, but like you can see I got sidetracked and added a rp2040 (my first one!), a step-down converter (also a first) and a USB hub...
+Why ?: I originally only wanted to slap a rpi pico onto a pcb and add 6 mosfets to it, but like you can see I got sidetracked and added my own rp2040 (my first one!), a step-down converter (also a first) and a USB hub...
 
-It'll be used to control the fans inside the electronics enclosure and connect the 2 Control board to the one usb port of the RPI Zero 2w, which it will also power. The high current PWM outputs are for eventual LED Bar upgrades, which might or might not happen.
-
-Schematic available [here](../files/schematic.pdf)
+It'll be used to control the fans inside the electronics enclosure and connect the 2 control boards to the one usb port of the RPI Zero 2w, which it will also power. The high current PWM outputs are for eventual LED bar upgrades, which might or might not happen.
 
 Firmware: I'll be using Klipper on the RP2040 with [this extension module](https://github.com/julianschill/klipper-led_effect) to control the Neopixel
+
+Schematic: [Here](../files/schematic.pdf)
+
+Libraries:
+
+- [easyeda2kicad](https://github.com/uPesy/easyeda2kicad.py), needs to be installed separately, used for downloading LCSC schematics & footprints
+  - Run `easyeda2kicad --full --lcsc_id=<id>` to download each component (one-by-one, yes...)
 
 ## Components
 
@@ -65,7 +71,7 @@ JLCPCB: $3.20 (LeadFree HASL) + $1.50 (shipping) = $4.70
 
 ### Parts
 
-> Note: Since this is my first time soldering a rp2040 (QFN-* package in general), I've added enough parts to build 2 board, so that I can mess up one
+> Note: Since this is my first time soldering a rp2040 (QFN-* package in general), I've added enough parts to build 2 board, so that I can mess one up, and if I manage to get both working I can also use it for the Ender3NG :D
 
 | LCSC ID   | Name                          | Amount      | Total price | Need if combined order ? |
 |-----------|-------------------------------|-------------|-------------|--------------------------|
@@ -96,7 +102,7 @@ JLCPCB: $3.20 (LeadFree HASL) + $1.50 (shipping) = $4.70
 
 - Shipping: $ 10.05
 
-Combined order with Hackpad & Board: $16.07 (saved shipping & fewer components)  
+Combined order with Hackpad & Board: $16.07 (2 tires - saved shipping & fewer components)  
 Enough parts for one try: $25.06  
 Enough parts for two tries: $30.00
 
