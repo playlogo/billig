@@ -71,7 +71,7 @@ JLCPCB: $3.20 (LeadFree HASL) + $1.50 (shipping) = $4.70
 
 ### Parts
 
-> Note: Since this is my first time soldering a rp2040 (QFN-* package in general), I've added enough parts to build 2 board, so that I can mess one up, and if I manage to get both working I can also use it for the Ender3NG :D
+> Note: Since this is my first time soldering a rp2040 (QFN-* package in general), I've added enough parts to build 2 boards, so that I can mess up one, and if I manage to get both working I can also use it for the Ender3NG :D
 
 | LCSC ID   | Name                          | Amount      | Total price | Need if combined order ? |
 |-----------|-------------------------------|-------------|-------------|--------------------------|
