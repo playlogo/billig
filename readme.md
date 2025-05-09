@@ -20,10 +20,3 @@ About the printer:
 
 Take a look at the [Journal](JOURNAL.md),the [Design notes](notes.md) or the [custom PCB](pcb/readme.md)!
 
-## Roadmap
-
-Connect original screen to an ESP32. Apparently it's a 2.4" SPI screen with the ILI9341 controller.
-
-- [Reddit post with pinout](https://www.reddit.com/r/klippers/comments/1e7ab61/wip_kobra_2_neo_esp32_vnc_klipperscreen/)
-- [Firmware for an ESP32 to display a VNC](https://github.com/DakillerV/Esp32TFTVNC/tree/main)
-- [KlipperScreen config & pinout (direct rpi hookup)](https://github.com/cheadrian/kobra2neo-klipper/tree/main/KlipperScreen)
