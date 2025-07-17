@@ -21,3 +21,7 @@ About the printer:
 Take a look at the [Journal (has lot's of pictures!)](JOURNAL.md), the [Design notes](notes.md) or the [custom PCB (that didn't make it)](pcb/readme.md)!
 
 Note: The stls in `printer/stls/` are only for my reference, export & download the latest ones form Onshape!
+
+## Roadmap
+
+Use Elecrow 7.0" Esp32 Touch display as an interface for klipper.

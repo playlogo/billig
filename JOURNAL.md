@@ -1,4 +1,4 @@
-**Done:** **YES!! Click here to see it's first benchy!**  
+**Done:** **YES!! [Click here to see it's first benchy!](#july-13th)**  
 **Result:** *~500$ 440x230x260mm 3D printer*
 
 **Author:** [@playlogo](https://github.com/playlogo)  
@@ -41,21 +41,23 @@ Here's my favorite one: Over 1.5mm difference from one side to the other
 
 ### July 13th
 
-More klipper configuration and wiring fixes. While trying to debug the Z-probe I manged to release the magic smoke of one of the toolhead breakout boards I reused from the defective printers.
-
-![Smoke](/assets/building/IMG_4222.jpg)
+More klipper configuration and wiring fixes.
 
 Toward the evening (or midnight, depending on how you define that) I got it to print it's first bench!
 
 ![Benchy!](/assets/building/videos/IMG_4226.gif)
 
-I'm super proud of it, just look at it. No layer shifting (only minor extrusion issues)!!!
+I'm super proud of it, just look at it. No layer shifting (only minor extrusion issues and some stringing since the filament is super old)!!!
 
 ![BNenchy again](/assets/building/IMG_4234.jpg)
 
 And the electronics look so cool!
 
 ![Electronics](/assets/building/IMG_4224.jpg)
+
+While trying to debug the Z-probe I manged to release the magic smoke of one of the toolhead breakout boards I reused from the defective printers.
+
+![Smoke](/assets/building/IMG_4222.jpg)
 
 ### July 12th
 
@@ -233,8 +235,6 @@ After all, this project was a lot of fun and very interesting. Once I got into t
 
 Small improvements & fixes: Improved 'Design notes', fixed spelling mistakes, added JST cables to BOM, added PCB mount to CAD model
 
-*This was a triumph, Huge success*
-
 ### April 7th - Monday (today)
 
 *I really want a break from cad plsss!*
@@ -243,12 +243,12 @@ Today I fixed a lot of small stuff in the CAD model: I added endstops for X&Y, a
 
 The electronics housing safely mounts both PSU, control boards, rpi zero and power plug. It's surrounded by acrylic panels, and has two fans at the top to suck in air from the bottom though the entire assembly.
 
-![Electronics](https://github.com/playlogo/billig/blob/main/images/electronics.png?raw=true)
+![Electronics](/assets/planning/electronics.png)
 
 I also updated the BOM and created this document (and it's now past midnight).
 
 Final version (V2.1 in CAD document history):
-![V2.1](https://github.com/playlogo/billig/blob/main/images/v2_1.png?raw=true)
+![V2.1](/assets/planning/v2_1.png)
 
 **Time spend in CAD:** Last 7h (had to go to school until 13:10 to get grades of last 2 years and the admission notice for my final 5 tests)
 
@@ -258,11 +258,11 @@ Final version (V2.1 in CAD document history):
 
 This day was super productive. I've designed the entire toolhead, reworked the entire gantry, and finally managed to create a **draggable 3 dimensional toolhead** in onshape, that allows me to test the reachable positions of the nozzle.
 
-![V1.9](https://github.com/playlogo/billig/blob/main/images/v1_9.png?raw=true)
+![V1.9](/assets/planning/v1_9.png)
 
 Reworking the gantry was *a lot* of pain. This is my first time seriously using assemblies in Onshape, and I based the original gantry part assembly on a feature I deleted while reworking the frame (ahhh). This broke my entire gantry when I finally updated it's context, which I need to do, because I've extended it by ~8cm to allow the nozzle to reach all positions. This is a example of the pain I had to endure:
 
-![Pain](https://github.com/playlogo/billig/blob/main/images/refactoring_pain.png?raw=true)
+![Pain](/assets/planning/refactoring_pain.png)
 
 **Time spend in CAD:** ~75% of my time awake (didn't even go outside) -> 10h
 
@@ -272,8 +272,8 @@ Reworking the gantry was *a lot* of pain. This is my first time seriously using 
 
 On saturday I basically redid everything I did the day before. Instead of bolting the profiles strait to each other using blind joints, I took some inspiration of the Ender3NG, and created these "in-between structures" (see picture). I also converted this sketch (which I created the night before) into CAD (once again, inspired by the Ender3NG, but created from scratch and the final part also ended up completely different)!
 
-![Sketch of Z-Axis bottom mount](https://github.com/playlogo/billig/blob/main/images/sketch_z.PNG?raw=true)
-![Improved frame](https://github.com/playlogo/billig/blob/main/images/first_version.png?raw=true)
+![Sketch of Z-Axis bottom mount](/assets/planning/sketch_z.PNG)
+![Improved frame](/assets/planning/first_version.png)
 
 I'm very happy with the progress one that day, cause the frame and gantry has been one of these low motivation, hard to imagine progress blockers. Also, the top "extrusion structure mounts" worked first time, and I never had to change them later
 
@@ -283,8 +283,8 @@ I'm very happy with the progress one that day, cause the frame and gantry has be
 
 4 Days ago I finally started to speedrun the entire CAD design starting with the frame (which I then redid one day later...). I started by converted these drawing I made about two weeks earlier during school into this frame:
 
-![Intial sketches](https://github.com/playlogo/billig/blob/main/images/sketch_initial.PNG?raw=true)
-![Initial frame](https://github.com/playlogo/billig/blob/main/images/friday.png?raw=true)
+![Intial sketches](/assets/planning//sketch_initial.PNG)
+![Initial frame](/assets/planning/friday.png)
 
 As you can see in the sketches, I was initially targeting a CoreXY build with linear rails, but this idea later got ditched in favor of a simple V-Wheel based Belted XY-Gantry to keep costs down.
 
@@ -307,7 +307,7 @@ I also started dissembling one of the broken printers to take measurements of th
 | ABL using cheap [BLTouch clone](https://de.aliexpress.com/item/1005007554425544.html)| | |
 | Temperature Sensor inside & Temp-control fans | | |
 
-### March 8 - Saturday
+### March 8th - Saturday
 
 Brainstorming about goal. Final 3 candidates:
 
@@ -332,3 +332,5 @@ Initial design ideas:
 - Printbed consist of 4 [smaller (and cheaper) print beds](https://de.aliexpress.com/item/1005007288279620.html): ~ 40€ total
 
 **Time:** 3h
+
+*This was a triumph, Huge success*
