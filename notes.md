@@ -13,6 +13,7 @@ Contents:
 - [Electronics - Mains wiring](#electronics---mains-wiring)
 - [Electronics - 2 MBs](#electronics---2-controller-boards--mbs)
 - [Electronics - Toolhead breakout board](#electronics---toolhead-breakout-board)
+- [Electronics - Original screen](#electronics---original-screen)
 
 ## Filament holder
 
@@ -101,3 +102,11 @@ I'll cut holes and slots into the acrylic backplate to make place for the steppe
 I'll reuse the original toolhead breakout board and mount it to the new toolhead. The breakout board connects the ABL probe, heater,  thermistor, fans and extruder stepper using a 18-Pin IDC cable to the MBs.
 
 ![Breakout board](images/electrical_breakout.png)
+
+## Electronics - Original screen
+
+Connect original screen to an ESP32. Apparently it's a 2.4" SPI screen with the ILI9341 controller.
+
+- [Reddit post with pinout](https://www.reddit.com/r/klippers/comments/1e7ab61/wip_kobra_2_neo_esp32_vnc_klipperscreen/)
+- [Firmware for an ESP32 to display a VNC](https://github.com/DakillerV/Esp32TFTVNC/tree/main)
+- [KlipperScreen config & pinout (direct rpi hookup)](https://github.com/cheadrian/kobra2neo-klipper/tree/main/KlipperScreen)
