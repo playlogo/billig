@@ -1,0 +1,8 @@
+Update steps:
+1. Format the TF card, copy the Motherboard firmware (firmware.bin) to the root directory of the TF card, and only store this file in the TF card.
+
+2. Insert the TF card into the printer in the shutdown state, and then turn on the printer.
+
+3. Wait for a while, and automatically update the firmware in the black screen state.
+
+4. After the update is completed, the screen will appear  “Anycubic LOGO”, and then automatically enter the main interface. Then shut down and pull out the SD card. update completed.
