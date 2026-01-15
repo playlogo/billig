@@ -1,6 +1,6 @@
 # Billig - A 3D printer from scratch
 
-![Final version](images/v2_1.png)
+![Flyby](/assets/building/videos/flyby.gif)
 
 > *Designing a 3D printer from scratch in 5 days*
 
@@ -9,21 +9,19 @@
 
 About the printer:
 
-- 440x230x260mm printing volume
+- 440x230x200mm printing volume
 - 940x410x465mm frame
 - Reuses a lot of parts from two "broken" [Anycubic Kobra 2 Neos](https://de.anycubic.com/products/kobra-2-neo)
 - Direct drive extruder & dual 5020 part cooling
 - Completely enclosed electronics
-- Build-in ABL & Nozzle offset sensor
+- Build-in ABL
 - With a rpi zero & Klipper-Ready
-- ~$340 (including the two broken printers)
+- ~$500 (including the two broken printers)
 
-Take a look at the [Journal](JOURNAL.md),the [Design notes](notes.md) or the [custom PCB](pcb/readme.md)!
+Take a look at the [Journal (has lot's of pictures!)](JOURNAL.md), the [Design notes](notes.md) or the [custom PCB (that didn't make it)](pcb/readme.md)!
+
+Note: The stls in `printer/stls/` are only for my reference, export & download the latest ones form Onshape!
 
 ## Roadmap
 
-Connect original screen to an ESP32. Apparently it's a 2.4" SPI screen with the ILI9341 controller.
-
-- [Reddit post with pinout](https://www.reddit.com/r/klippers/comments/1e7ab61/wip_kobra_2_neo_esp32_vnc_klipperscreen/)
-- [Firmware for an ESP32 to display a VNC](https://github.com/DakillerV/Esp32TFTVNC/tree/main)
-- [KlipperScreen config & pinout (direct rpi hookup)](https://github.com/cheadrian/kobra2neo-klipper/tree/main/KlipperScreen)
+Use Elecrow 7.0" Esp32 Touch display as an interface for klipper.
