@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "4a46aaf4-8b81-442d-945e-20b7af414d6f")
 	(paper "A4")
+	(title_block
+		(title "Kontakt")
+		(date "2026-01-19")
+		(rev "2.0")
+		(company "playlogo")
+		(comment 4 "PWR In & Step Down")
+	)
 	(lib_symbols
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers
@@ -2716,7 +2723,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "854011ac-ed32-48cd-96d2-447b4df0ddda")
+			(uuid "854011ac-ed32-48cd-96d2-447b4df0dddb")
 		)
 		(instances
 			(project ""
@@ -3389,10 +3396,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3915e5b9-f059-4bc8-b944-d0e596cd4303")
+			(uuid "3915e5b9-f059-4bc8-b944-d0e596cd4304")
 		)
 		(pin "1"
-			(uuid "36a191a1-29ce-4319-be08-db2ec6dfb83e")
+			(uuid "36a191a1-29ce-4319-be08-db2ec6dfb83f")
 		)
 		(instances
 			(project ""

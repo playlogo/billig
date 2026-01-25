@@ -538,7 +538,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "kontakt.step",
       "svg": "",
       "vrml": ""
     },

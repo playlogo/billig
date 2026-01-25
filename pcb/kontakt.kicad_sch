@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "defbf9dc-8548-43e7-a0e1-d6b2ab3ae1df")
 	(paper "A4")
+	(title_block
+		(title "Kontakt")
+		(date "2026-01-19")
+		(rev "2.0")
+		(company "playlogo")
+		(comment 4 "Root")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
@@ -627,7 +634,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "396b3e2c-1d23-4c6e-8bd0-223e86fbe4df")
+			(uuid "396b3e2c-1d23-4c6e-8bd0-223e86fbe4e0")
 		)
 		(instances
 			(project ""
@@ -695,7 +702,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "396b3e2c-1d23-4c6e-8bd0-223e86fbe4df")
+			(uuid "396b3e2c-1d23-4c6e-8bd0-223e86fbe4e1")
 		)
 		(instances
 			(project ""
@@ -829,7 +836,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "396b3e2c-1d23-4c6e-8bd0-223e86fbe4df")
+			(uuid "396b3e2c-1d23-4c6e-8bd0-223e86fbe4e2")
 		)
 		(instances
 			(project ""

@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "65a41109-a41c-4280-85aa-48e1c9bf5651")
 	(paper "A4")
+	(title_block
+		(title "Kontakt")
+		(date "2026-01-19")
+		(rev "2.0")
+		(company "playlogo")
+		(comment 4 "Peripherals")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -2321,10 +2328,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8dc08a9c-7a1b-4079-bf1a-307732a03c93")
+			(uuid "8dc08a9c-7a1b-4079-bf1a-307732a03c94")
 		)
 		(pin "1"
-			(uuid "4d519a71-4c5b-4e0b-bc1d-67ee067b59b9")
+			(uuid "4d519a71-4c5b-4e0b-bc1d-67ee067b59ba")
 		)
 		(instances
 			(project ""
@@ -2814,13 +2821,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "8bbc3346-0dd2-4902-9df4-4a6d9b0ede04")
+			(uuid "8bbc3346-0dd2-4902-9df4-4a6d9b0ede05")
 		)
 		(pin "1"
-			(uuid "6781e8eb-7ef5-4685-97a9-aa8e7de54413")
+			(uuid "6781e8eb-7ef5-4685-97a9-aa8e7de54414")
 		)
 		(pin "3"
-			(uuid "686d40c5-52a5-4218-baf2-9983498dc17e")
+			(uuid "686d40c5-52a5-4218-baf2-9983498dc17f")
 		)
 		(instances
 			(project ""
@@ -3919,13 +3926,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "010e1670-a824-438e-984b-109ef8069b44")
+			(uuid "010e1670-a824-438e-984b-109ef8069b45")
 		)
 		(pin "1"
-			(uuid "b42acfe1-de36-4425-be33-41d67f0eeded")
+			(uuid "b42acfe1-de36-4425-be33-41d67f0eedee")
 		)
 		(pin "3"
-			(uuid "e6385181-7351-48a6-877e-87c24c4fa1d9")
+			(uuid "e6385181-7351-48a6-877e-87c24c4fa1da")
 		)
 		(instances
 			(project ""
@@ -4001,13 +4008,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "8bbc3346-0dd2-4902-9df4-4a6d9b0ede04")
+			(uuid "8bbc3346-0dd2-4902-9df4-4a6d9b0ede06")
 		)
 		(pin "1"
-			(uuid "6781e8eb-7ef5-4685-97a9-aa8e7de54413")
+			(uuid "6781e8eb-7ef5-4685-97a9-aa8e7de54415")
 		)
 		(pin "3"
-			(uuid "686d40c5-52a5-4218-baf2-9983498dc17e")
+			(uuid "686d40c5-52a5-4218-baf2-9983498dc180")
 		)
 		(instances
 			(project ""
@@ -4149,13 +4156,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "8bbc3346-0dd2-4902-9df4-4a6d9b0ede04")
+			(uuid "8bbc3346-0dd2-4902-9df4-4a6d9b0ede07")
 		)
 		(pin "1"
-			(uuid "6781e8eb-7ef5-4685-97a9-aa8e7de54413")
+			(uuid "6781e8eb-7ef5-4685-97a9-aa8e7de54416")
 		)
 		(pin "3"
-			(uuid "686d40c5-52a5-4218-baf2-9983498dc17e")
+			(uuid "686d40c5-52a5-4218-baf2-9983498dc181")
 		)
 		(instances
 			(project ""

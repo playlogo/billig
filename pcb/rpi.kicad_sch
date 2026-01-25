@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "21d87486-589e-412f-a390-2eadfd11d337")
 	(paper "A4")
+	(title_block
+		(title "Kontakt")
+		(date "2026-01-19")
+		(rev "2.0")
+		(company "playlogo")
+		(comment 4 "RP2040 & supporting electronics")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers

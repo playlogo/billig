@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "ac0db8fc-61da-43c2-8f34-09ab4b1c55bb")
 	(paper "A4")
+	(title_block
+		(title "Kontakt")
+		(date "2026-01-19")
+		(rev "2.0")
+		(company "playlogo")
+		(comment 4 "USB-C Input & Splitter")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers
@@ -3256,10 +3263,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "2392db74-4d3e-42e9-a534-52f42748f144")
+			(uuid "2392db74-4d3e-42e9-a534-52f42748f145")
 		)
 		(pin "1"
-			(uuid "549dfca3-c05f-4a25-ae98-9a24864620f5")
+			(uuid "549dfca3-c05f-4a25-ae98-9a24864620f6")
 		)
 		(instances
 			(project ""
@@ -4685,10 +4692,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "111ea0c9-ce38-4cd7-9549-9e49cc52d139")
+			(uuid "111ea0c9-ce38-4cd7-9549-9e49cc52d13a")
 		)
 		(pin "1"
-			(uuid "502352ab-6672-4580-9f86-d9fe4270d97e")
+			(uuid "502352ab-6672-4580-9f86-d9fe4270d97f")
 		)
 		(instances
 			(project ""
@@ -5164,7 +5171,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e66d54ad-2b7e-41f2-989a-16da7f048a2f")
+			(uuid "e66d54ad-2b7e-41f2-989a-16da7f048a30")
 		)
 		(instances
 			(project ""

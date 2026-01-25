@@ -1,6 +1,6 @@
 # Kontakt - Fan & LED control board
 
-| <img src="../assets/planning/pcb_raytraced.png" height="400" width="500" style="object-fit: cover;" alt="PCB routing"/> |<img src="../assets/planning/pcb_raytraced_top.png" height="400" width="500" style="object-fit: cover;" alt="PCB components"/> |
+| <img src="../assets/planning/pcb_raytraced.png" height="400" width="500" style="object-fit: cover;" alt="PCB routing"/> |<img src="../assets/pcb_case_unshaded.png" height="400" width="500" style="object-fit: cover;" alt="PCB components"/> |
 | ---------------------------------------|------------------------------------|
 | <img src="../assets/planning/pcb_routing.png" height="420" width="500" style="object-fit: cover;" alt="Case render"/> | <img src="../assets/planning/pcb_rp2040.png" height="340" width="500" style="object-fit: cover;" alt="Case side view"/> |
 
@@ -14,6 +14,7 @@ Features:
 - 1x ARGB connection
 - 2x High current 24V PWM outputs (5A)
 - 4x Low current 24V PWM outputs (2A)
+- [A 3D printable case](case/) with an included 30mm fan, can be mounted to a DIN rail with [this adapter](https://www.printables.com/model/259120-horizontal-ssr-din-rail-mount/files)
 
 Why ?: I originally only wanted to slap a rpi pico onto a pcb and add 6 mosfets to it, but like you can see I got sidetracked and added my own rp2040 (my first one!), a step-down converter (also a first) and a USB hub...
 
